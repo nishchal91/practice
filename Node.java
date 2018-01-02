@@ -1,4 +1,4 @@
-package practice;
+package com.practice;
 
 public class Node {
 	

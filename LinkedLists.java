@@ -1,4 +1,4 @@
-package practice;
+package com.practice;
 
 public class LinkedLists {
 	Node head;

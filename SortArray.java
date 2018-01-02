@@ -1,4 +1,4 @@
-package practice;
+package com.practice;
 
 public class SortArray {
 	private static int firstOneIndex = -1;

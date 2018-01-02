@@ -1,4 +1,4 @@
-package practice;
+package com.practice;
 
 import java.util.LinkedHashMap;
 
