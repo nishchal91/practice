@@ -1,4 +1,4 @@
-package com.practice;
+package com.practice.leetcode;
 
 public class SortArray {
 	private static int firstOneIndex = -1;

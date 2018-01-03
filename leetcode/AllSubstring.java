@@ -1,6 +1,5 @@
-package com.practice;
+package com.practice.leetcode;
 
-import java.util.Arrays;
 import java.util.LinkedHashMap;
 
 public class AllSubstring {

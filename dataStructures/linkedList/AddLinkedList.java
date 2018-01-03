@@ -8,11 +8,9 @@ Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
 Output: 7 -> 0 -> 8
  */
 
-package com.practice;
+package com.practice.dataStructures.linkedList;
 
 import java.util.HashMap;
-import java.util.LinkedHashMap;
-import java.util.List;
 
 
 public class AddLinkedList {
@@ -159,7 +157,7 @@ public class AddLinkedList {
 //		 l2_8.next=l2_9;
 //		 l2_9.next=l2_10;
 		 Node sum =adder.addTwoNumbers(first,l2_first);
-//		 adder.printList(sum);
+		 adder.printList(sum);
 			
 	 }
 	
