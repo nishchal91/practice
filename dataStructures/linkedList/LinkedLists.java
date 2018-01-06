@@ -63,8 +63,31 @@ public class LinkedLists {
 //		llist1.printList();
 //	
 		System.out.println(llist1.hasCycle());
-
+		Node n =llist.reverseList();
+		while (n != null) {
+			System.out.print(n.data + " ");
+			n = n.next;
+		}
+		System.out.println();	
 	}
+	
+	public Node reverseList() {
+        Node newNextNode=null;
+        Node currNode=head;
+        if(head==null)return null;
+        if(head.next==null)return head;
+        Node temp=head.next;
+        
+        while(temp!=null){
+        	currNode.next=newNextNode;
+        	newNextNode=currNode;
+        	currNode=temp;
+        	temp=currNode.next;
+        }
+        currNode.next=newNextNode;
+        head=currNode;
+        return head;
+    }
 	
 	public void deleteNode(Node node) {
 		if (node == null) return;
