@@ -14,7 +14,7 @@ public class Graph {
 		}
 	}
 	
-	void addEdge(int src,int dest){
+	public void addEdge(int src,int dest){
 		adjArray[src].add(dest);
 	}
 	
