@@ -16,7 +16,7 @@ public class IsUnique {
 	
 	public static void main(String[] args){
 		IsUnique input=new IsUnique();
-		System.out.println(input.isUnique("qwertyuiopasdfghjkl zxcvbnm"));
+		System.out.println(input.isUnique("qwertyuiopasdfghjkl zxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM"));
 	}
 	
 }
